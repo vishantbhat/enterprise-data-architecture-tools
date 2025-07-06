@@ -1,0 +1,16 @@
+Capability,System,Support Level
+Workforce Planning,Workday,Full
+Workforce Planning,Kronos,None
+Workforce Planning,Legacy HRIS,Partial
+Time & Attendance Tracking,Workday,None
+Time & Attendance Tracking,Kronos,Full
+Time & Attendance Tracking,Legacy HRIS,Partial
+Payroll Processing,Workday,Full
+Payroll Processing,Kronos,None
+Payroll Processing,Legacy HRIS,Partial
+Employee Self-Service,Workday,Full
+Employee Self-Service,Kronos,None
+Employee Self-Service,Legacy HRIS,None
+Compliance Reporting,Workday,Partial
+Compliance Reporting,Kronos,Partial
+Compliance Reporting,Legacy HRIS,Full

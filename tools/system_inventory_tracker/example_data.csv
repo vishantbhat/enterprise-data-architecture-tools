@@ -1,0 +1,3 @@
+System Name,Owner,Function,Dependencies,Technology Stack,Business Process,Risk Level
+Workday,HR,Core HRMS,"['Payroll', 'Recruiting']",Cloud (SaaS),Employee Management,Low
+Kronos,Operations,Time Tracking,['Payroll'],On-Prem,Shift Scheduling,Medium
