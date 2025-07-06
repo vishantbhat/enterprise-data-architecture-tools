@@ -1,4 +1,4 @@
 Technology,Version,Platform,Usage,Lifecycle Status,Notes
-Workday,2024.1,Cloud,Core,Strategic,Main HRMS platform
-Kronos,8.1,On-Prem,Peripheral,Tolerated,Used for time tracking
-Legacy HRIS,v5,On-Prem,Peripheral,Sunset,To be replaced by Workday
+Workday,2024.1,Cloud,Core,Strategic,Main HRMS
+Kronos,8.1,On-Prem,Peripheral,Tolerated,Time Tracking
+Legacy HRIS,v5,On-Prem,Peripheral,Sunset,Legacy system

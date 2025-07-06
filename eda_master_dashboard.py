@@ -1,9 +1,8 @@
 import streamlit as st
+import subprocess
 
 st.set_page_config(page_title="EDA Toolkit Launcher", layout="wide")
 st.title("🚀 EDA Toolkit Launcher")
-
-st.markdown("## 📍 Roadmap Stage: Define Current State")
 
 tools = {
     "System Inventory Tracker": "tools/system_inventory_tracker/app.py",
@@ -14,5 +13,6 @@ tools = {
 }
 
 for name, path in tools.items():
-    st.write(f"🔹 **{name}**")
-    st.code(f"streamlit run {path}", language="bash")
+    if st.button(f"▶️ Launch {name}"):
+        st.write(f"Launching {name}...")
+        subprocess.Popen(["streamlit", "run", path])

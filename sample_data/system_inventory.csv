@@ -1,4 +1,4 @@
 System Name,Owner,Function,Dependencies,Technology Stack,Business Process,Risk Level
-Workday,HR,Core HRMS,"['Payroll', 'Recruiting']",Cloud (SaaS),Employee Management,Low
-Kronos,Operations,Time Tracking,['Payroll'],On-Prem,Shift Scheduling,Medium
-Legacy HRIS,IT,Old HR platform,[],On-Prem,Reporting,High
+Workday,HR,Core HRMS,"Payroll, Recruiting",Cloud (SaaS),Employee Management,Low
+Kronos,Operations,Time Tracking,Payroll,On-Prem,Shift Scheduling,Medium
+Legacy HRIS,IT,Old HR Platform,,On-Prem,Reporting,High
