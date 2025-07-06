@@ -44,8 +44,11 @@ if st.session_state.inventory:
     # Export options
     col1, col2 = st.columns(2)
     with col1:
-        if st.download_button("📥 Export as Excel", data=df.to_excel(index=False), file_name="system_inventory.xlsx"):
-            st.success("Excel exported!")
+        csv_data = df.to_csv(index=False).encode('utf-8')
+
+        if st.download_button("📥 Export as CSV", data=csv_data, file_name="system_inventory.csv", mime="text/csv"):
+            st.success("CSV exported!")
+
     with col2:
         yaml_data = yaml.dump(st.session_state.inventory, sort_keys=False)
         if st.download_button("📥 Export as YAML", data=yaml_data, file_name="system_inventory.yaml"):
