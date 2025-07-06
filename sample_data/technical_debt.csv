@@ -1,0 +1,3 @@
+System/Area,Issue,Impact,Root Cause,Proposed Solution,Risk Rating,Status
+Kronos,Hard-coded job rules,High,No config engine,Refactor rule engine,High,Identified
+Legacy HRIS,Unsupported database version,Medium,No upgrade path,Replace with Workday,High,Planned

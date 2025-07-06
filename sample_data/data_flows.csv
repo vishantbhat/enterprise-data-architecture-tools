@@ -1,0 +1,3 @@
+Source,Target,Interface,Frequency,Notes
+Workday,Payroll DB,API,Daily,Employee pay info
+Kronos,Time DB,CSV Export,Hourly,Timesheet data

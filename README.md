@@ -1,52 +1,41 @@
-# 🧭 Enterprise Data Architecture Tools
+# 📦 Enterprise Data Architecture Toolkit
 
-This toolkit is designed for enterprise architects and data leaders to define and communicate current and future state architecture using the 5-step roadmap approach inspired by the Pragmatic Architect framework.
-
-All tools are:
-- 🔒 Fully offline & self-hosted (Streamlit-based)
-- 🖥️ Compatible with Linux Mint & LibreOffice
-- 🎯 Built for fast demo in interviews or client consulting engagements
+This toolkit includes five offline tools to support the "Define Current State" stage of enterprise architecture, aligned with the Pragmatic Architect roadmap.
 
 ---
 
-## 📦 Tools Overview
+## 🧭 Toolkit Diagram
 
-### 1. [System Inventory Tracker](tools/system_inventory_tracker)
-> Catalog current systems, their purpose, tech stack, dependencies, and business alignment.
-- Add and manage system metadata
-- Export to CSV or YAML
-
-### 2. [Capability Heatmap](tools/capability_heatmap)
-> Visual matrix showing how well systems support key business capabilities.
-- Color-coded support levels (Full / Partial / None)
-- Add capabilities and systems interactively
-- Export heatmap to CSV
-
-### 3. [Technology Landscape Matrix](tools/technology_landscape_matrix)
-> Document technology stack across lifecycle stages and usage patterns.
-- Tag tools as Strategic / Tolerated / Sunset
-- Classify usage type (Core, Peripheral, etc.)
-- Export matrix to CSV
-
-### 4. [Data Flow Mapper](tools/data_flow_mapper)
-> Define and visualize integrations between systems.
-- Specify source/target systems, interfaces, protocols
-- Auto-generate flow diagram using Graphviz
-- Export flow table as CSV
-
-### 5. [Technical Debt Register](tools/technical_debt_register)
-> Track and prioritize architecture or implementation debt.
-- Log issues, root causes, proposed fixes, risk level
-- Status tracking (Identified → Resolved)
-- Export register to CSV
+![Toolkit Diagram](eda_toolkit_diagram.png)
 
 ---
 
-## ▶️ Running the Tools
+## 📋 Included Tools
 
-Each tool runs independently. To launch:
+| Tool                        | Purpose                                      |
+|----------------------------|----------------------------------------------|
+| System Inventory Tracker   | Catalog current systems and their metadata   |
+| Capability Heatmap         | Map capabilities to supporting systems       |
+| Technology Landscape Matrix| Assess platforms, versions, lifecycle status |
+| Data Flow Mapper           | Document system-to-system data movement      |
+| Technical Debt Register    | Log known technical risks and fixes          |
 
+---
+
+## ▶️ How to Launch
+
+Run the master launcher:
+```bash
+streamlit run eda_master_dashboard.py
+```
+
+Or run an individual tool:
 ```bash
 cd tools/<tool_name>
-pip install -r requirements.txt
 streamlit run app.py
+```
+Example:
+```bash
+cd tools/system_inventory_tracker
+streamlit run app.py
+```
