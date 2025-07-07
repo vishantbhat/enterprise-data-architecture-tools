@@ -1,0 +1,3 @@
+Function,Current Tool,Target Tool,Fit
+ETL,Informatica,dbt,Partial
+BI,Tableau,Looker,High
