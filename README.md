@@ -1,41 +1,28 @@
-# 📦 Enterprise Data Architecture Toolkit
+# Enterprise Data Architecture Toolkit
 
-This toolkit includes five offline tools to support the "Define Current State" stage of enterprise architecture, aligned with the Pragmatic Architect roadmap.
+This repository contains a personal consulting toolkit for data architecture planning and maturity assessments across enterprises. The tools are implemented in Streamlit and support interviews, assessments, and planning workshops.
 
----
+## Stage 1: Define Current State
+- System Inventory Tracker
+- Capability Heatmap
+- Technology Landscape Matrix
+- Data Flow Mapper
+- Technical Debt Register
 
-## 🧭 Toolkit Diagram
+## Stage 2: Define Future State
+- Target State Architecture Blueprint
+- Capability Maturity Model
+- Technology Fit-Gap Matrix
+- High-Level Migration Plan
+- Transformation Principles Register
 
-![Toolkit Diagram](eda_toolkit_diagram.png)
-
----
-
-## 📋 Included Tools
-
-| Tool                        | Purpose                                      |
-|----------------------------|----------------------------------------------|
-| System Inventory Tracker   | Catalog current systems and their metadata   |
-| Capability Heatmap         | Map capabilities to supporting systems       |
-| Technology Landscape Matrix| Assess platforms, versions, lifecycle status |
-| Data Flow Mapper           | Document system-to-system data movement      |
-| Technical Debt Register    | Log known technical risks and fixes          |
-
----
-
-## ▶️ How to Launch
-
-Run the master launcher:
+## Run Locally
 ```bash
-streamlit run eda_master_dashboard.py
+poetry install
+poetry run streamlit run eda_master_launcher.py
 ```
 
-Or run an individual tool:
-```bash
-cd tools/<tool_name>
-streamlit run app.py
-```
-Example:
-```bash
-cd tools/system_inventory_tracker
-streamlit run app.py
-```
+## Referenced Frameworks
+- DAMA-DMBOK
+- TOGAF
+- CMMI-inspired models

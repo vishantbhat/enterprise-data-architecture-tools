@@ -1,0 +1,3 @@
+Source System,Target System,Flow Type
+CRM,Data Warehouse,Batch
+ERP,Data Lake,Real-time

@@ -1,8 +1,7 @@
-
 [tool.poetry]
 name = "eda-toolkit"
 version = "0.1.0"
-description = "Enterprise Data Architecture Toolkit - streamlit based roadmap tools"
+description = "Enterprise Data Architecture Toolkit"
 authors = ["Vishant Bhat <you@example.com>"]
 license = "MIT"
 readme = "README.md"

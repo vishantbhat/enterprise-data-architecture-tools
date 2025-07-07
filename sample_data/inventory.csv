@@ -1,0 +1,4 @@
+System,Owner,Platform,Criticality
+HRMS,HR,On-Prem,High
+CRM,Sales,Cloud,Medium
+ERP,Finance,Hybrid,High

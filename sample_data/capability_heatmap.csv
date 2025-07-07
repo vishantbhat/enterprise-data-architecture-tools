@@ -1,0 +1,4 @@
+Domain,Capability,Coverage
+Customer,Profile Management,Full
+Product,Catalog Management,Partial
+Order,Fulfillment,Low
