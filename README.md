@@ -1,6 +1,6 @@
 # Enterprise Data Architecture Toolkit
 
-This repository contains a personal consulting toolkit for data architecture planning and maturity assessments across enterprises. The tools are implemented in Streamlit and support interviews, assessments, and planning workshops.
+This repository contains a personal consulting toolkit for enterprise data architecture roadmap preparation. The tools are implemented in Streamlit and support interviews, assessments, and planning workshops at the moment.
 
 ## Stage 1: Define Current State
 - System Inventory Tracker
