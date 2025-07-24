@@ -1,4 +1,3 @@
-Domain,Capability,Coverage
-Customer,Profile Management,Full
-Product,Catalog Management,Partial
-Order,Fulfillment,Low
+Capability,Maturity
+Data Integration,2
+Analytics,4
